@@ -64,14 +64,14 @@ class _MainScreenState extends State<MainScreen> {
               ],
             ),
             child: ClipRRect(
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(30.0),
-                topRight: Radius.circular(30.0),
-              ),
+              // borderRadius: BorderRadius.only(
+              //   topLeft: Radius.circular(30.0),
+              //   topRight: Radius.circular(30.0),
+              // ),
               child: BottomNavigationBar(
                 backgroundColor: Colors.white,
                 iconSize: 20,
-                unselectedItemColor: Style.Colors.grey,
+                unselectedItemColor: Colors.black54,
                 unselectedFontSize: 9.5,
                 selectedFontSize: 9.5,
                 type: BottomNavigationBarType.fixed,
